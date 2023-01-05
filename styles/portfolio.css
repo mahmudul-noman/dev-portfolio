@@ -175,3 +175,30 @@ main{
     margin-top: 50px;
     text-align: center;
 }
+
+/* Contact Style */
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: none;
+    width: 100%;
+    padding: 0 30px;
+}
+input{
+    height: 64px;
+}
+.contact a{
+    text-decoration: none;
+}
+.contact a img{
+    max-width: 100%;
+    margin-right: 10px;
+}
